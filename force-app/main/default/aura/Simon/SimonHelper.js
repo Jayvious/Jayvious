@@ -10,7 +10,7 @@
             //console.log(color);
             var button = document.getElementById(randomColors[i]);
             button.style.backgroundColor = 'white';
-            console.log(button.style.backgroundColor + i);
+            //console.log(button.style.backgroundColor + i);
             helper.blink(i, button , color);
             
         }
@@ -29,8 +29,8 @@
 
     blink : function(i, button , color){
         setTimeout(function(){ 
-            console.log(color);
-            console.log(button.style.backgroundColor);
+            //console.log(color);
+            //console.log(button.style.backgroundColor);
             button.style.backgroundColor = color }, (i + 1) * 1000);
     },
 

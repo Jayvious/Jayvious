@@ -1,8 +1,0 @@
-<aura:component implements = "flexipage:availableForAllPageTypes">
-    <lightning:card>
-        <lightning:button variant="base" label="Base" title="Base action" onclick="{! c.handleClick }"/>
-        <lightning:button variant="base" label="Base" title="Base action" onclick="{! c.handleClick }"/>
-        <lightning:button variant="base" label="Base" title="Base action" onclick="{! c.handleClick }"/>
-        <lightning:button variant="base" label="Base" title="Base action" onclick="{! c.handleClick }"/>
-    </lightning:card>
-</aura:component>	

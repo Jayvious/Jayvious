@@ -1,3 +1,3 @@
 <aura:application>
-    <c:SimonSays/>
+    <c:Simon/>
 </aura:application>	

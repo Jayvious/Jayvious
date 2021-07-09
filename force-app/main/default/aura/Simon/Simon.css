@@ -1,2 +1,54 @@
-.THIS {
+.THIS .container{
+    display: flex;
+    text-align: center;
 }
+.THIS #red{
+    text-align: center;
+    background-color: red;
+    flex-basis: 100px;
+    height: 30px;
+    margin: 70px;
+    width:20%;
+    padding-bottom:20%;
+    display:inline-block;
+}
+
+.THIS #yellow{
+    text-align: center;
+    background-color: yellow;
+    flex-basis: 100px;
+    height: 30px;
+    margin: 70px;
+    width:20%;
+    padding-bottom:20%;
+    display:inline-block;
+}
+
+.THIS #blue{
+    text-align: center;
+    background-color: blue;
+    flex-basis: 100px;
+    height: 30px;
+    margin: 70px;
+    width:20%;
+    padding-bottom:20%;
+    display:inline-block;
+}
+.THIS #green{
+    text-align: center;
+    background-color: green;
+    flex-basis: 100px;
+    height: 100px;
+    margin: 70px;
+    width:20%;
+    padding-bottom:20%;
+    display:inline-block;
+}
+
+.THIS .start{
+    text-align: center;
+}
+
+
+
+

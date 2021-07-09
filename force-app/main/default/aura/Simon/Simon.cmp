@@ -1,34 +1,31 @@
 <aura:component implements = "flexipage:availableForAllPageTypes">
+    <!--Attributes-->
+    <aura:attribute name="colors" type="String[]" default="red,blue,yellow,green"/>
+    <aura:attribute name="level" type="Integer" default="1"/>
+    <aura:attribute name="pattern" type="String[]"/>
+    <aura:attribute name="clickedCount" type="Integer" default="0"/>
+    <aura:attribute name="colorClicked" type="String"/>
+
+
+    <!--Component View-->
     <div class="slds-box slds-theme_default">
-        <div class = "slds-grid slds-wrap">
-            <div class = "slds-col slds-size_2-of-12">
-                <h1>Simon Says: The Game</h1>
+        <h1>Simon Says: The Game</h1>
+        <div class = "container">
+            <div class = "custom-box" id = "red" onclick = "{! c.handleClick }">
+                
             </div>
-            <lightning:layout horizontalAlign="spread">
-                <div>
-                    <lightning:layoutItem padding="around-small">
-                        <button class = "slds-button"/>
-                    </lightning:layoutItem>
-                </div>
-                <div>
-                    <lightning:layoutItem padding="around-small">
-                        <button class = "slds-button"/>
-                    </lightning:layoutItem>
-                </div>
-                <div>
-                    <lightning:layoutItem padding="around-small">
-                        <button class = "slds-button"/>
-                    </lightning:layoutItem>
-                </div>
-                <div>
-                    <lightning:layoutItem padding="around-small">
-                        <button class = "slds-button"/>
-                    </lightning:layoutItem>
-                </div>
-            </lightning:layout>
-            <div>
-                <lightning:button label="Start Game" title="Start Game" onclick="{! c.startGame }"/>
+            <div class = "custom-box" id = "green" onclick = "{! c.handleClick }">
+                
             </div>
+            <div class = "custom-box" id = "blue" onclick = "{! c.handleClick }">
+                
+            </div>
+            <div class = "custom-box" id = "yellow" onclick = "{! c.handleClick }">
+                
+            </div>
+        </div>
+        <div class = "start">
+            <lightning:button aura:id = "start" label = "Start Game" class = "start" onclick="{! c.startClick }"/>
         </div>
     </div>
 </aura:component>

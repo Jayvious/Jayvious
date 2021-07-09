@@ -7,7 +7,7 @@
     background-color: red;
     flex-basis: 100px;
     height: 30px;
-    margin: 70px;
+    margin: 150px;
     width:20%;
     padding-bottom:20%;
     display:inline-block;
@@ -18,7 +18,7 @@
     background-color: yellow;
     flex-basis: 100px;
     height: 30px;
-    margin: 70px;
+    margin: 150px;
     width:20%;
     padding-bottom:20%;
     display:inline-block;
@@ -29,7 +29,7 @@
     background-color: blue;
     flex-basis: 100px;
     height: 30px;
-    margin: 70px;
+    margin: 150px;
     width:20%;
     padding-bottom:20%;
     display:inline-block;
@@ -39,7 +39,7 @@
     background-color: green;
     flex-basis: 100px;
     height: 100px;
-    margin: 70px;
+    margin: 150px;
     width:20%;
     padding-bottom:20%;
     display:inline-block;
